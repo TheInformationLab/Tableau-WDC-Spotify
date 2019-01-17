@@ -1,0 +1,1 @@
+module.exports = __webpack_public_path__ + "../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg";

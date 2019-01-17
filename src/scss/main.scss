@@ -1,0 +1,82 @@
+// FontAwesome 4.7.x
+// $fa-font-path: '~font-awesome/fonts';
+// @import '~font-awesome/scss/font-awesome.scss';
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+
+// Bootstrap 4
+@import '~bootstrap/scss/bootstrap';
+
+.splash {
+    background: url("/img/frontSplash.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: rgba(247,247,248,.9);
+}
+
+.top-nav-collapse .navbar-brand {
+    color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgba(247,247,248,.9);
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+li {
+  display: list-item;
+}
+
+.icons {
+  margin: 0 auto;
+  position: relative;
+}
+
+li.icon {
+  position: relative;
+  width: 220px;
+  float: left;
+  padding: 0;
+  margin: 0 15px 30px 15px;
+}
+
+.wdc {
+  padding-top:20%;
+}
+
+.wdc-logo {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
